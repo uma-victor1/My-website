@@ -38,7 +38,7 @@ export default function Home() {
           I'm building{" "}
           <Link
             target="_blank"
-            href=""
+            href="https://smartpdf-alpha.vercel.app/"
             className="underline duration-500 hover:text-zinc-300"
           >
             SmartReader
@@ -46,6 +46,13 @@ export default function Home() {
           to solve issue of Reading with AI
         </h2>
       </div>
+      <a
+        href="/UmaVictorSWE.pdf"
+        download="Uma-Victor-Resume.pdf"
+        className="text-sm duration-500 text-zinc-500 hover:text-zinc-300 mt-2 block"
+      >
+        Download Resume
+      </a>
     </div>
   );
 }
